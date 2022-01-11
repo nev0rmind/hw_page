@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+}
+
+:root {--bg-color: #151515;}
+
+html { 
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 4.5rem;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro';
+    src: url(src/TT_Norms_Pro_Bold.woff);
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'TT Norms Pro';
+    src: url(src/TT_Norms_Pro_Regular.woff);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Silk Serif';
+    src: url(src/Silk_Serif_Medium.woff);
+    font-style: normal;
+    font-weight: medium;
+}
+
+@font-face {
+    font-family: 'Silk Serif';
+    src: url(src/Silk_Serif_SemiBold_Italic.woff);
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+
+#sans { 
+    font-family: 'TT Norms Pro';
+    font-weight: normal;
+    color: #fff;
+}
+
+.serif-italic {
+    font-family: 'Silk Serif';
+    font-weight: bold;
+    font-style: italic;
+}
+
+.serif-regular {
+    font-family: 'Silk Serif';
+    font-weight: medium;
+    font-style: normal;
+}
+
+
+
+/* Definition der Sinnabschnitte */
+
+body { 
+    background-color: var(--bg-color);
+    margin-top: 1.5rem;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'TT Norms Pro';
+    font-weight: medium;
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0 2.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.hero {
+    margin: 8rem 8rem;
+}
+
+
+.container-headline {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#service {
+    margin-top: 14rem;
+}
+
+.service-headline {
+    font-size: 3rem;
+    color: #fff;
+    margin: 0rem 8rem;
+}
+
+.service-body {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 0.2rem 22rem;
+    margin-bottom: 7rem;
+}
+
+.space-service {
+    margin-top: 1.75rem;
+}
+
+#contact-headline {
+    font-family: 'TT Norms Pro';
+    font-weight: regular;
+    color: #fff;
+    font-size: 2rem;
+    margin: 2rem 8rem 0rem 8rem;
+
+    
+
+}
+
+#contact-adress {
+    font-family: 'Silk Serif';
+    font-weight: regular;
+    color: #fff;
+    font-size: 3.5rem;
+    margin: 0 8rem;
+}
+
+#contact-adress:visited {
+    color: white;
+}
